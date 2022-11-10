@@ -1,0 +1,62 @@
+ header{
+  height:200px;
+ }
+ header > img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: #555;
+}
+/* Acima é a especificação do campo para o logo*/
+
+header > nav > ul > li.titulo{
+  text-align: center ;
+  color:black;
+  font-size: 30px;
+
+  
+}
+/* titulo dentro do header*/
+header > nav > ul >li > h1{
+  text-align: center;
+  display: inline;
+}
+
+header > nav >ul > li > button{
+  background-color: gray;
+  position: relative;
+  left:20%;  
+  margin:10px 
+  
+  
+}
+/* alinhar os botoes a direita do titulo*/
+header > nav > a {
+  text-align: center;
+  padding:40px;
+  
+
+
+}
+/*itens abaixo do título */
+header > hr{
+  color:black;
+  position:relative;
+  top:50px;
+}
+
+/* linha horizontal dividindo header dos demais*/
+
+
+footer {
+  display: inline-flex;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  padding:4px;
+  background-color:rgb(216, 216, 216)
+}
+footer a{
+  margin:auto;
+}
